@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: white;
+    width: 100%;
+    height: 5rem;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    box-shadow: 0.5rem 0 0.3rem black;
+}
+.nav-logo{
+    text-decoration: none;
+    display: inline-block;
+    font-size: larger;
+    margin: 2rem 3rem 0 1rem;
+}
+.nav-item{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    margin: 0 1rem;
+
+}
+.nav-item:hover{
+    background-color:darkgrey;
+    border-radius: 0.5rem;
+
+}
+.nav-button{
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    margin: 0 0 0 1rem;
+}
+#book-button{
+    border: 0.1rem solid red;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    color: red;
+}
+#trial-button{
+    border: 0.1rem solid red;
+    background-color: red;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.text-content-1{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding: 4rem 0 0;
+    justify-content: center;
+    height: 15rem;
+    line-height: 20rem;
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-content-2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 2rem 7rem; 
+    font-size: x-large;
+    width: 40%;
+    margin: 0 auto;
+    line-height: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-body{
+    width: 100%;
+    height: 100%;
+    background-color: #eef5ff;
+    display: flex;
+}
+.div1{
+    width: 50%;
+    padding: 3rem;
+    background-color: #eef5ff;
+}
+.div2{
+    width: 50%;
+    padding: 3rem;
+    background-color: #eef5ff;
+}
+.card{
+    background-color: white;
+    padding: 2rem 0.5rem;
+    margin: 3rem 8rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    display: inline-flex;
+    width: 60%;
+    height: fit-content;
+}
+.card-part1{
+    width: 7rem;
+    padding: 0.5rem;
+}
+.card-part2{
+    padding: 0.5rem;
+    letter-spacing: 0.05rem;
+    line-height: 1.5rem;
+}
+#highlight{
+    color: red;
+}
+.form-box{
+    background-color: white;
+    margin: 3rem auto;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    display: block;
+    width: 70%;
+    height: 80%;
+    padding: 2rem;
+}
+.heading{
+    padding: 1rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+}
+.input{
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+.input-field{
+    border: 0.1rem solid darkgray;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 70%;
+}
+.submit{
+    border: 0.1rem solid red;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: red;
+    padding: 0.5rem;
+    width: 70%;
+    text-align: center;
+}
+#sub-button{
+    color: white;
+}
+.req{
+    color: red;
+}
